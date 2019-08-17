@@ -73,5 +73,6 @@ public class MedicoController{
 		this.medicos = this.service.listaMedico();
 		return this.medicos;
 	}
-	
+
+
 }

@@ -22,6 +22,38 @@ import lombok.Setter;
 @Named
 @SessionScoped
 public class UsuarioLogado implements Serializable {
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((autenticador == null) ? 0 : autenticador.hashCode());
+		result = prime * result + ((usuario == null) ? 0 : usuario.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		UsuarioLogado other = (UsuarioLogado) obj;
+		if (autenticador == null) {
+			if (other.autenticador != null)
+				return false;
+		} else if (!autenticador.equals(other.autenticador))
+			return false;
+		if (usuario == null) {
+			if (other.usuario != null)
+				return false;
+		} else if (!usuario.equals(other.usuario))
+			return false;
+		return true;
+	}
+
+
 	private static final long serialVersionUID = 1L;
 
 	@Getter

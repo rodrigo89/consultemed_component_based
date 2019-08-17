@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.consultemed.repository.repositories;
+package br.com.consultemed.repository;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,6 +12,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
+import br.com.consultemed.models.Agenda;
 import br.com.consultemed.models.Medico;
 import br.com.consultemed.utils.JPAUtils;
 
@@ -82,5 +83,9 @@ public class MedicoRepository {
 		}
 
 	}
-
+	public Medico buscaPorId(Long idMedico) {
+		this.factory.getTransaction().begin();
+		Medico a = this.factory.find(Medico.class, idMedico);
+		return a;
+	}
 }

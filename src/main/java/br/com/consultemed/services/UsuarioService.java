@@ -8,7 +8,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import br.com.consultemed.models.Usuario;
-import br.com.consultemed.repository.repositories.UsuarioRepository;
+import br.com.consultemed.repository.UsuarioRepository;
 
 /**
  * @author carlosbarbosagomesfilho
