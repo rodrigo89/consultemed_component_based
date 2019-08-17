@@ -1,0 +1,938 @@
+2019-08-07 22:25:06 DEBUG logging:37 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-08-07 22:25:06 INFO  servletWeldServlet:57 - WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+2019-08-07 22:25:06 INFO  Version:152 - WELD-000900: 2.2.6 (Final)
+2019-08-07 22:25:06 INFO  Bootstrap:48 - WELD-ENV-000020: Using jandex for bean discovery
+2019-08-07 22:25:06 WARN  servletWeldServlet:71 - WELD-ENV-001004: Found both WEB-INF/beans.xml and WEB-INF/classes/META-INF/beans.xml. It's not portable to use both locations at the same time. Weld is going to use file:/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/beans.xml.
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:58 - Handle path: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/META-INF
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/filters
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/repository
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/repository/security
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/repository/repositories
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/security
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/utils
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/models
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/phaselistener
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/exceptions
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/cripto
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/beans
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/view
+2019-08-07 22:25:06 DEBUG FileSystemBeanArchiveHandler:90 - Handle directory: /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/br/com/consultemed/services
+2019-08-07 22:25:06 DEBUG Bootstrap:224 - WELD-ENV-000024: Archive isolation enabled - creating multiple isolated bean archives if needed
+2019-08-07 22:25:06 INFO  Bootstrap:207 - WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2019-08-07 22:25:06 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2019-08-07 22:25:06 WARN  Interceptor:47 - WELD-001700: Interceptor annotation class javax.ejb.PostActivate not found, interception based on it is not enabled
+2019-08-07 22:25:06 WARN  Interceptor:47 - WELD-001700: Interceptor annotation class javax.ejb.PrePassivate not found, interception based on it is not enabled
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2019-08-07 22:25:06 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpSessionDestructionContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpConversationContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%HttpRequestContext
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/lib/javax.faces-2.2.9.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2[com.sun.faces.flow.FlowCDIExtension@7488c183]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/lib/javax.faces-2.2.9.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1[com.sun.faces.application.view.ViewScopeExtension@75e92bb7]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/lib/javax.faces-2.2.9.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3[com.sun.faces.flow.FlowDiscoveryCDIExtension@47c15468]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2019-08-07 22:25:06 DEBUG Bootstrap:504 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes [bean count=5]: (empty collection)
+2019-08-07 22:25:07 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes [bean count=5]: (empty collection)
+2019-08-07 22:25:07 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for /Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes [bean count=5]: (empty collection)
+2019-08-07 22:25:07 INFO  servletTomcat:45 - WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.models.Medico] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.security.AutenticadorService] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.models.UsuarioLogado] with qualifiers [@Default @Any @Named]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpSession
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.repository.repositories.UsuarioRepository] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpConversationContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.repository.security.AutenticadorRepository] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.JPAUtils] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.filters.FilterLogin] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%RequestContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%ApplicationContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.beans.LoginController] with qualifiers [@Default @Any @Named]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%DependentContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.services.UsuarioService] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpServletRequest
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.beans.MedicoController] with qualifiers [@Default @Any @Named]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%BoundRequestContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.models.Usuario] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%SingletonContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%BoundConversationContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpRequestContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.cripto.Criptografia] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.SessionContext] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.Messages] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.repository.repositories.MedicoRepository] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%ServletContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%BoundSessionContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.beans.UsuarioController] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpSessionContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.phaselistener.LoginPhaseListener] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.MessagesView] with qualifiers [@Default @Any @Named]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%HttpSessionDestructionContext
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.Constantes] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.beans.BeanFlash] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.services.MedicoService] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Managed Bean [class br.com.consultemed.utils.Main] with qualifiers [@Any @Default]
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: WELD%AbstractSyntheticBean%/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes%Conversation
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2019-08-07 22:25:07 DEBUG Reflection:74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@517d9cd5
+2019-08-07 22:25:07 DEBUG Bootstrap:504 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@7901a5ab
+2019-08-07 22:25:07 DEBUG Reflection:80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2019-08-07 22:25:07 DEBUG Bootstrap:431 - WELD-000100: Weld initialized. Validating beans
+2019-08-07 22:25:07 INFO  servletWeldServlet:56 - WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used for ServletContext notifications
+2019-08-07 22:25:07 INFO  servletWeldServlet:71 - WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+2019-08-07 22:25:14 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2019-08-07 22:25:14 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2019-08-07 22:25:15 DEBUG HibernatePersistenceProvider:98 - Located and parsed 1 persistence units; checking each
+2019-08-07 22:25:15 DEBUG HibernatePersistenceProvider:106 - Checking persistence-unit [name=consultemed, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [consultemed]
+2019-08-07 22:25:15 DEBUG ProviderChecker:87 - Persistence-unit [consultemed] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
+2019-08-07 22:25:15 DEBUG LogHelper:102 - PersistenceUnitInfo [
+	name: consultemed
+	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/consultemed_component_based/WEB-INF/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names []
+	Mapping files names []
+	Properties [
+		hibernate.connection.driver_class: com.mysql.jdbc.Driver
+		hibernate.current_session_context_class: thread
+		hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+		hibernate.connection.useUnicode: true
+		hibernate.connection.username: root
+		hibernate.hbm2ddl.auto: update
+		hibernate.connection.url: jdbc:mysql://localhost:3306/consultemed_action_based
+		hibernate.connection.password: root
+		hibernate.show_sql: true
+		hibernate.connection.characterEncoding: utf-8]
+2019-08-07 22:25:15 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2019-08-07 22:25:15 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2019-08-07 22:25:15 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2019-08-07 22:25:15 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2019-08-07 22:25:15 INFO  Version:45 - HHH000412: Hibernate Core {5.2.8.Final}
+2019-08-07 22:25:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-07 22:25:15 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2019-08-07 22:25:15 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2019-08-07 22:25:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@4251c9c9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@4251c9c9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4251c9c9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@17678bf9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@6f714adf
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration yes_no -> org.hibernate.type.YesNoType@3a2de95d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@32572a6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@32572a6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@32572a6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration character -> org.hibernate.type.CharacterType@73c6b0d2
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration char -> org.hibernate.type.CharacterType@73c6b0d2
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@73c6b0d2
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@1055e7ca
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@1055e7ca
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1055e7ca
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration integer -> org.hibernate.type.IntegerType@3654d9a9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration int -> org.hibernate.type.IntegerType@3654d9a9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3654d9a9
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@a4bff4b
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@a4bff4b
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@a4bff4b
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@2aad8696
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@2aad8696
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2aad8696
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@77502940
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@77502940
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@77502940
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4a143486
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4a143486
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6e1e4e
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6e1e4e
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration string -> org.hibernate.type.StringType@53848a2d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.String -> org.hibernate.type.StringType@53848a2d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4b0d39e2
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2aaf414d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration url -> org.hibernate.type.UrlType@38813419
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@38813419
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration Duration -> org.hibernate.type.DurationType@3d266cb7
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3d266cb7
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration Instant -> org.hibernate.type.InstantType@645256ed
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@645256ed
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5f30c0e1
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5f30c0e1
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@37a5acf3
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@37a5acf3
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@62edecf4
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@62edecf4
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@79984bae
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@79984bae
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7be102be
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7be102be
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@a9429d8
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@a9429d8
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration date -> org.hibernate.type.DateType@30c232f6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@30c232f6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration time -> org.hibernate.type.TimeType@347c0b78
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@347c0b78
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration timestamp -> org.hibernate.type.TimestampType@21e9a29f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@21e9a29f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@21e9a29f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@387cee9f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration calendar -> org.hibernate.type.CalendarType@19f8428a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@19f8428a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@19f8428a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@40aa5310
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration locale -> org.hibernate.type.LocaleType@5a9cdd02
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5a9cdd02
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration currency -> org.hibernate.type.CurrencyType@6e695f9a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6e695f9a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@51a2b82b
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@51a2b82b
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration class -> org.hibernate.type.ClassType@7c65b84d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7c65b84d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7f34db37
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7f34db37
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4d20a9ef
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration binary -> org.hibernate.type.BinaryType@2659a36f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.BinaryType@2659a36f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.BinaryType@2659a36f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3f1f8999
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3f1f8999
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3f1f8999
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration row_version -> org.hibernate.type.RowVersionType@a61a08
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration image -> org.hibernate.type.ImageType@3f453740
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration characters -> org.hibernate.type.CharArrayType@d7d5be6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration char[] -> org.hibernate.type.CharArrayType@d7d5be6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration [C -> org.hibernate.type.CharArrayType@d7d5be6
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3afbe67d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3afbe67d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3afbe67d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration text -> org.hibernate.type.TextType@46f43b75
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration ntext -> org.hibernate.type.NTextType@3091cb92
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration blob -> org.hibernate.type.BlobType@7f95d627
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@7f95d627
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@204eb773
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration clob -> org.hibernate.type.ClobType@27c01db4
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@27c01db4
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration nclob -> org.hibernate.type.NClobType@545b3f7d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@545b3f7d
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@38cdb8f8
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@70caaaab
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration serializable -> org.hibernate.type.SerializableType@aa1aecd
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration object -> org.hibernate.type.ObjectType@3256d64a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3256d64a
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@52087211
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@56e81a9c
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@515183aa
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1557b4de
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4dec49f
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@12f41262
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4fe59f45
+2019-08-07 22:25:16 DEBUG BasicTypeRegistry:145 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@673c3323
+2019-08-07 22:25:16 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-07 22:25:16 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/consultemed_action_based]
+2019-08-07 22:25:16 INFO  pooling:132 - HHH10001001: Connection properties: {useUnicode=true, user=root, password=root, characterEncoding=utf-8}
+2019-08-07 22:25:16 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-08-07 22:25:16 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2019-08-07 22:25:16 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-08-07 22:25:17 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 5.5.5-10.3.9-MariaDB-1:10.3.9+maria~bionic
+      major : 5
+      minor : 5
+2019-08-07 22:25:17 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+      major : 5
+      minor : 1
+2019-08-07 22:25:17 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.0
+2019-08-07 22:25:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-07 22:25:17 DEBUG IdentifierHelperBuilder:117 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2019-08-07 22:25:17 DEBUG IdentifierHelperBuilder:191 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-08-07 22:25:17 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2019-08-07 22:25:17 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2019-08-07 22:25:17 DEBUG AnnotationBinder:511 - Binding entity from annotated class: br.com.consultemed.models.Medico
+2019-08-07 22:25:17 DEBUG QueryBinder:80 - Binding named query: Medido.findAll => SELECT m FROM Medico m
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2019-08-07 22:25:17 DEBUG EntityBinder:414 - Import with entity name Medico
+2019-08-07 22:25:17 DEBUG EntityBinder:690 - Bind entity br.com.consultemed.models.Medico on table TB_MEDICOS
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_MEDICOS), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Medico:id]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property id
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_MEDICOS), mappingColumn=CRM, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property crm with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Medico:crm]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for crm
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property crm
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_MEDICOS), mappingColumn=EMAIL, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property email with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Medico:email]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for email
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property email
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_MEDICOS), mappingColumn=NOME, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property nome with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Medico:nome]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for nome
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property nome
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_MEDICOS), mappingColumn=TELEFONE, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property telefone with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Medico:telefone]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for telefone
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property telefone
+2019-08-07 22:25:17 DEBUG AnnotationBinder:511 - Binding entity from annotated class: br.com.consultemed.models.Usuario
+2019-08-07 22:25:17 DEBUG QueryBinder:80 - Binding named query: Usuario.findAll => SELECT u FROM Usuario u
+2019-08-07 22:25:17 DEBUG QueryBinder:80 - Binding named query: Usuario.loginUsuario => SELECT u FROM Usuario u WHERE u.login =:login AND u.senha =:senha
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2019-08-07 22:25:17 DEBUG EntityBinder:414 - Import with entity name Usuario
+2019-08-07 22:25:17 DEBUG EntityBinder:690 - Bind entity br.com.consultemed.models.Usuario on table TB_USUARIOS
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_USUARIOS), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Usuario:id]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property id
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_USUARIOS), mappingColumn=LOGIN, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property login with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Usuario:login]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for login
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property login
+2019-08-07 22:25:17 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TB_USUARIOS), mappingColumn=SENHA, insertable=true, updatable=true, unique=false}
+2019-08-07 22:25:17 DEBUG PropertyBinder:174 - MetadataSourceProcessor property senha with lazy=false
+2019-08-07 22:25:17 DEBUG AbstractPropertyHolder:92 - Attempting to locate auto-apply AttributeConverter for property [br.com.consultemed.models.Usuario:senha]
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:411 - building SimpleValue for senha
+2019-08-07 22:25:17 DEBUG PropertyBinder:265 - Building property senha
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for crm
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for email
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for nome
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for telefone
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for login
+2019-08-07 22:25:17 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for senha
+2019-08-07 22:25:17 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [tb_medicos]
+2019-08-07 22:25:17 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [tb_usuarios]
+2019-08-07 22:25:17 DEBUG SessionFactoryImpl:199 - Building session factory
+2019-08-07 22:25:17 DEBUG Settings:69 - SessionFactory name : null
+2019-08-07 22:25:17 DEBUG Settings:70 - Automatic flush during beforeCompletion(): enabled
+2019-08-07 22:25:17 DEBUG Settings:71 - Automatic session close at end of transaction: disabled
+2019-08-07 22:25:17 DEBUG Settings:73 - Statistics: disabled
+2019-08-07 22:25:17 DEBUG Settings:75 - Deleted entity synthetic identifier rollback: disabled
+2019-08-07 22:25:17 DEBUG Settings:76 - Default entity-mode: pojo
+2019-08-07 22:25:17 DEBUG Settings:77 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2019-08-07 22:25:17 DEBUG Settings:78 - Allow initialization of lazy state outside session : disabled
+2019-08-07 22:25:17 DEBUG Settings:80 - Using BatchFetchStyle : LEGACY
+2019-08-07 22:25:17 DEBUG Settings:81 - Default batch fetch size: -1
+2019-08-07 22:25:17 DEBUG Settings:82 - Maximum outer join fetch depth: 2
+2019-08-07 22:25:17 DEBUG Settings:83 - Default null ordering: NONE
+2019-08-07 22:25:17 DEBUG Settings:84 - Order SQL updates by primary key: disabled
+2019-08-07 22:25:17 DEBUG Settings:85 - Order SQL inserts for batching: disabled
+2019-08-07 22:25:17 DEBUG Settings:87 - multi-tenancy strategy : NONE
+2019-08-07 22:25:17 DEBUG Settings:89 - JTA Track by Thread: enabled
+2019-08-07 22:25:17 DEBUG Settings:91 - Query language substitutions: {}
+2019-08-07 22:25:17 DEBUG Settings:92 - JPA query language strict compliance: disabled
+2019-08-07 22:25:17 DEBUG Settings:93 - Named query checking : enabled
+2019-08-07 22:25:17 DEBUG Settings:95 - Second-level cache: enabled
+2019-08-07 22:25:17 DEBUG Settings:96 - Second-level query cache: disabled
+2019-08-07 22:25:17 DEBUG Settings:97 - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@6f2884ef
+2019-08-07 22:25:17 DEBUG Settings:98 - Second-level cache region prefix: null
+2019-08-07 22:25:17 DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+2019-08-07 22:25:17 DEBUG Settings:100 - Structured second-level cache entries: disabled
+2019-08-07 22:25:17 DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+2019-08-07 22:25:17 DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+2019-08-07 22:25:17 DEBUG Settings:104 - JDBC batch size: 15
+2019-08-07 22:25:17 DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+2019-08-07 22:25:17 DEBUG Settings:106 - Scrollable result sets: enabled
+2019-08-07 22:25:17 DEBUG Settings:107 - Wrap result sets: disabled
+2019-08-07 22:25:17 DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+2019-08-07 22:25:17 DEBUG Settings:109 - JDBC result set fetch size: null
+2019-08-07 22:25:17 DEBUG Settings:110 - Connection release mode: AFTER_TRANSACTION
+2019-08-07 22:25:17 DEBUG Settings:111 - Generate SQL with comments: disabled
+2019-08-07 22:25:17 DEBUG SessionFactoryImpl:254 - Session factory constructed with filter configurations : {}
+2019-08-07 22:25:17 DEBUG SessionFactoryImpl:255 - Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.connection.characterEncoding=utf-8, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14/bin/bootstrap.jar:/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14/bin/tomcat-juli.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/lib/tools.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, catalina.useNaming=true, java.vendor.url=http://java.oracle.com/, user.timezone=America/Fortaleza, os.name=Mac OS X, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=BR, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib, sun.java.command=org.apache.catalina.startup.Bootstrap start, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.endian=little, user.home=/Users/carlosbarbosagomesfilho, user.language=pt, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre, file.separator=/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/classes, hibernate.hbm2ddl.auto=update, server.loader=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.connection.useUnicode=true, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=1.8.0_192-b12, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, user.name=carlosbarbosagomesfilho, path.separator=:, hibernate.connection.username=root, common.loader="/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib","/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/lib/*.jar","/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14/lib","/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14/lib/*.jar", os.version=10.14.6, java.endorsed.dirs=/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/consultemed_action_based, hibernate.ejb.persistenceUnitName=consultemed, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/var/folders/gh/571jlq092_j04_t4fb1f7mqm0000gn/T/, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=/Users/carlosbarbosagomesfilho/Documents/Desenvolvimento/apache-tomcat-9.0.14, java.version=1.8.0_192, java.util.concurrent.ForkJoinPool.common.threadFactory=org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-jmx-remote.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina-ws.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-de.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-i18n-ko.jar,tomcat-i18n-pt-BR.jar,tomcat-i18n-ru.jar,tomcat-i18n-zh-CN.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, user.dir=/Users/carlosbarbosagomesfilho/eclipse/Eclipse.app/Contents/MacOS, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, catalina.base=/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@511ad49d, wtp.deploy=/Users/carlosbarbosagomesfilho/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps, java.library.path=/Users/carlosbarbosagomesfilho/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.192-b12, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeBig, java.ext.dirs=/Users/carlosbarbosagomesfilho/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=52.0, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16}
+2019-08-07 22:25:17 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2019-08-07 22:25:18 DEBUG CascadeStyles:268 - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2019-08-07 22:25:18 DEBUG SessionFactoryImpl:294 - Instantiated session factory
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [br.com.consultemed.models.Medico] is safe
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : br.com.consultemed.models.Medico
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [br.com.consultemed.models.Medico] is safe
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : br.com.consultemed.models.Medico
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [br.com.consultemed.models.Usuario] is safe
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : br.com.consultemed.models.Usuario
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [br.com.consultemed.models.Usuario] is safe
+2019-08-07 22:25:18 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : br.com.consultemed.models.Usuario
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3598 - Static SQL for entity: br.com.consultemed.models.Medico
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3603 -  Version select: select id from TB_MEDICOS where id =?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3606 -  Snapshot select: select medico_.id, medico_.CRM as CRM2_0_, medico_.EMAIL as EMAIL3_0_, medico_.NOME as NOME4_0_, medico_.TELEFONE as TELEFONE5_0_ from TB_MEDICOS medico_ where medico_.id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into TB_MEDICOS (CRM, EMAIL, NOME, TELEFONE, id) values (?, ?, ?, ?, ?)
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Update 0: update TB_MEDICOS set CRM=?, EMAIL=?, NOME=?, TELEFONE=? where id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from TB_MEDICOS where id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3614 -  Identity insert: insert into TB_MEDICOS (CRM, EMAIL, NOME, TELEFONE) values (?, ?, ?, ?)
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ea53c4e]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [NONE]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@105c88e6]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [READ]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b344f4e]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [UPGRADE]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@af588ff]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [UPGRADE_NOWAIT]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@146726d6]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [UPGRADE_SKIPLOCKED]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d65fcfd]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [FORCE]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1fb65437]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [PESSIMISTIC_READ]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? lock in share mode
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f8db4da]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [PESSIMISTIC_WRITE]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5432c58a]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [PESSIMISTIC_FORCE_INCREMENT]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62ae14bf]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [OPTIMISTIC]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18c9aa76]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : crm
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : email
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nome
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefone
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Medico)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Medico, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Medico)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Medico)
+          - SQL table alias mapping - medico0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Medico [OPTIMISTIC_FORCE_INCREMENT]: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity br.com.consultemed.models.Medico: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity br.com.consultemed.models.Medico: select medico0_.id as id1_0_0_, medico0_.CRM as CRM2_0_0_, medico0_.EMAIL as EMAIL3_0_0_, medico0_.NOME as NOME4_0_0_, medico0_.TELEFONE as TELEFONE5_0_0_ from TB_MEDICOS medico0_ where medico0_.id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3598 - Static SQL for entity: br.com.consultemed.models.Usuario
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3603 -  Version select: select id from TB_USUARIOS where id =?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3606 -  Snapshot select: select usuario_.id, usuario_.LOGIN as LOGIN2_1_, usuario_.SENHA as SENHA3_1_ from TB_USUARIOS usuario_ where usuario_.id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into TB_USUARIOS (LOGIN, SENHA, id) values (?, ?, ?)
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Update 0: update TB_USUARIOS set LOGIN=?, SENHA=? where id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from TB_USUARIOS where id=?
+2019-08-07 22:25:18 DEBUG AbstractEntityPersister:3614 -  Identity insert: insert into TB_USUARIOS (LOGIN, SENHA) values (?, ?)
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@698df9e3]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [NONE]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4bad579a]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [READ]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c3a5f2a]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [UPGRADE]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d2426c3]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [UPGRADE_NOWAIT]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1ee115ff]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [UPGRADE_SKIPLOCKED]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2dbc59dc]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [FORCE]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2efecc82]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [PESSIMISTIC_READ]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? lock in share mode
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@19fa7270]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [PESSIMISTIC_WRITE]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5dbb0ff0]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [PESSIMISTIC_FORCE_INCREMENT]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=? for update
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7caa9b12]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [OPTIMISTIC]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36953942]
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : login
+2019-08-07 22:25:18 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : senha
+2019-08-07 22:25:18 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2019-08-07 22:25:18 DEBUG LoadQueryJoinAndFetchProcessor:101 - processing queryspace <gen:0>
+2019-08-07 22:25:18 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=br.com.consultemed.models.Usuario)
+    - Returns
+       - EntityReturnImpl(entity=br.com.consultemed.models.Usuario, querySpaceUid=<gen:0>, path=br.com.consultemed.models.Usuario)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=br.com.consultemed.models.Usuario)
+          - SQL table alias mapping - usuario0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2019-08-07 22:25:18 DEBUG EntityLoader:115 - Static select for entity br.com.consultemed.models.Usuario [OPTIMISTIC_FORCE_INCREMENT]: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity br.com.consultemed.models.Usuario: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity br.com.consultemed.models.Usuario: select usuario0_.id as id1_1_0_, usuario0_.LOGIN as LOGIN2_1_0_, usuario0_.SENHA as SENHA3_1_0_ from TB_USUARIOS usuario0_ where usuario0_.id=?
+2019-08-07 22:25:18 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3839d9e6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-08-07 22:25:18 DEBUG Table:514 - No alter strings for table : TB_MEDICOS
+2019-08-07 22:25:18 DEBUG Table:514 - No alter strings for table : TB_USUARIOS
+2019-08-07 22:25:18 DEBUG NamedQueryRepository:151 - Checking 3 named HQL queries
+2019-08-07 22:25:18 DEBUG NamedQueryRepository:155 - Checking named query: Medido.findAll
+2019-08-07 22:25:18 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@491e65a4
+2019-08-07 22:25:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:277 - parse() - HQL: SELECT m FROM br.com.consultemed.models.Medico m
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:295 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'FROM'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'br'
+       |     |  |  |  |  \-[IDENT] Node: 'com'
+       |     |  |  |  \-[IDENT] Node: 'consultemed'
+       |     |  |  \-[IDENT] Node: 'models'
+       |     |  \-[IDENT] Node: 'Medico'
+       |     \-[ALIAS] Node: 'm'
+       \-[SELECT] Node: 'SELECT'
+          \-[IDENT] Node: 'm'
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG FromElement:147 - FromClause{level=1} : br.com.consultemed.models.Medico (m) -> medico0_
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : m -> medico0_.id
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG HqlSqlWalker:745 - processQuery() :  ( SELECT ( {select clause} medico0_.id ) ( FromClause{level=1} TB_MEDICOS medico0_ ) )
+2019-08-07 22:25:18 DEBUG JoinProcessor:187 - Using FROM fragment [TB_MEDICOS medico0_]
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:264 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (TB_MEDICOS)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'medico0_.id as id1_0_' {alias=m, className=br.com.consultemed.models.Medico, tableAlias=medico0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'medico0_.CRM as CRM2_0_, medico0_.EMAIL as EMAIL3_0_, medico0_.NOME as NOME4_0_, medico0_.TELEFONE as TELEFONE5_0_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[m], fromElementByTableAlias=[medico0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'TB_MEDICOS medico0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=m,role=null,tableName=TB_MEDICOS,tableAlias=medico0_,origin=null,columns={,className=br.com.consultemed.models.Medico}}
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:246 - HQL: SELECT m FROM br.com.consultemed.models.Medico m
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:247 - SQL: select medico0_.id as id1_0_, medico0_.CRM as CRM2_0_, medico0_.EMAIL as EMAIL3_0_, medico0_.NOME as NOME4_0_, medico0_.TELEFONE as TELEFONE5_0_ from TB_MEDICOS medico0_
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG NamedQueryRepository:155 - Checking named query: Usuario.findAll
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:277 - parse() - HQL: SELECT u FROM br.com.consultemed.models.Usuario u
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:295 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'FROM'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'br'
+       |     |  |  |  |  \-[IDENT] Node: 'com'
+       |     |  |  |  \-[IDENT] Node: 'consultemed'
+       |     |  |  \-[IDENT] Node: 'models'
+       |     |  \-[IDENT] Node: 'Usuario'
+       |     \-[ALIAS] Node: 'u'
+       \-[SELECT] Node: 'SELECT'
+          \-[IDENT] Node: 'u'
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG FromElement:147 - FromClause{level=1} : br.com.consultemed.models.Usuario (u) -> usuario0_
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u -> usuario0_.id
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG HqlSqlWalker:745 - processQuery() :  ( SELECT ( {select clause} usuario0_.id ) ( FromClause{level=1} TB_USUARIOS usuario0_ ) )
+2019-08-07 22:25:18 DEBUG JoinProcessor:187 - Using FROM fragment [TB_USUARIOS usuario0_]
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:264 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (TB_USUARIOS)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'usuario0_.id as id1_1_' {alias=u, className=br.com.consultemed.models.Usuario, tableAlias=usuario0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'usuario0_.LOGIN as LOGIN2_1_, usuario0_.SENHA as SENHA3_1_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[u], fromElementByTableAlias=[usuario0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'TB_USUARIOS usuario0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=u,role=null,tableName=TB_USUARIOS,tableAlias=usuario0_,origin=null,columns={,className=br.com.consultemed.models.Usuario}}
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:246 - HQL: SELECT u FROM br.com.consultemed.models.Usuario u
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:247 - SQL: select usuario0_.id as id1_1_, usuario0_.LOGIN as LOGIN2_1_, usuario0_.SENHA as SENHA3_1_ from TB_USUARIOS usuario0_
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG NamedQueryRepository:155 - Checking named query: Usuario.loginUsuario
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:277 - parse() - HQL: SELECT u FROM br.com.consultemed.models.Usuario u WHERE u.login =:login AND u.senha =:senha
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:295 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'br'
+    |  |     |  |  |  |  \-[IDENT] Node: 'com'
+    |  |     |  |  |  \-[IDENT] Node: 'consultemed'
+    |  |     |  |  \-[IDENT] Node: 'models'
+    |  |     |  \-[IDENT] Node: 'Usuario'
+    |  |     \-[ALIAS] Node: 'u'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'u'
+    \-[WHERE] Node: 'WHERE'
+       \-[AND] Node: 'AND'
+          +-[EQ] Node: '='
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'u'
+          |  |  \-[IDENT] Node: 'login'
+          |  \-[COLON] Node: ':'
+          |     \-[IDENT] Node: 'login'
+          \-[EQ] Node: '='
+             +-[DOT] Node: '.'
+             |  +-[IDENT] Node: 'u'
+             |  \-[IDENT] Node: 'senha'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'senha'
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG FromElement:147 - FromClause{level=1} : br.com.consultemed.models.Usuario (u) -> usuario0_
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u -> usuario0_.id
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u -> usuario0_.id
+2019-08-07 22:25:18 DEBUG DotNode:661 - getDataType() : login -> org.hibernate.type.StringType@53848a2d
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u.login -> usuario0_.LOGIN
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u -> usuario0_.id
+2019-08-07 22:25:18 DEBUG DotNode:661 - getDataType() : senha -> org.hibernate.type.StringType@53848a2d
+2019-08-07 22:25:18 DEBUG FromReferenceNode:60 - Resolved : u.senha -> usuario0_.SENHA
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG HqlSqlWalker:745 - processQuery() :  ( SELECT ( {select clause} usuario0_.id ) ( FromClause{level=1} TB_USUARIOS usuario0_ ) ( WHERE ( AND ( = ( usuario0_.LOGIN usuario0_.id login ) ? ) ( = ( usuario0_.SENHA usuario0_.id senha ) ? ) ) ) )
+2019-08-07 22:25:18 DEBUG JoinProcessor:187 - Using FROM fragment [TB_USUARIOS usuario0_]
+2019-08-07 22:25:18 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:264 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (TB_USUARIOS)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'usuario0_.id as id1_1_' {alias=u, className=br.com.consultemed.models.Usuario, tableAlias=usuario0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'usuario0_.LOGIN as LOGIN2_1_, usuario0_.SENHA as SENHA3_1_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[u], fromElementByTableAlias=[usuario0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'TB_USUARIOS usuario0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=u,role=null,tableName=TB_USUARIOS,tableAlias=usuario0_,origin=null,columns={,className=br.com.consultemed.models.Usuario}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[AND] SqlNode: 'AND'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'usuario0_.LOGIN' {propertyName=login,dereferenceType=PRIMITIVE,getPropertyPath=login,path=u.login,tableAlias=usuario0_,className=br.com.consultemed.models.Usuario,classAlias=u}
+          |  |  +-[ALIAS_REF] IdentNode: 'usuario0_.id' {alias=u, className=br.com.consultemed.models.Usuario, tableAlias=usuario0_}
+          |  |  \-[IDENT] IdentNode: 'login' {originalText=login}
+          |  \-[NAMED_PARAM] ParameterNode: '?' {name=login, expectedType=org.hibernate.type.StringType@53848a2d}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'usuario0_.SENHA' {propertyName=senha,dereferenceType=PRIMITIVE,getPropertyPath=senha,path=u.senha,tableAlias=usuario0_,className=br.com.consultemed.models.Usuario,classAlias=u}
+             |  +-[ALIAS_REF] IdentNode: 'usuario0_.id' {alias=u, className=br.com.consultemed.models.Usuario, tableAlias=usuario0_}
+             |  \-[IDENT] IdentNode: 'senha' {originalText=senha}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=senha, expectedType=org.hibernate.type.StringType@53848a2d}
+
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:246 - HQL: SELECT u FROM br.com.consultemed.models.Usuario u WHERE u.login =:login AND u.senha =:senha
+2019-08-07 22:25:18 DEBUG QueryTranslatorImpl:247 - SQL: select usuario0_.id as id1_1_, usuario0_.LOGIN as LOGIN2_1_, usuario0_.SENHA as SENHA3_1_ from TB_USUARIOS usuario0_ where usuario0_.LOGIN=? and usuario0_.SENHA=?
+2019-08-07 22:25:18 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2019-08-07 22:25:18 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2019-08-07 22:25:18 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@62fe2b57
+2019-08-07 22:25:18 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 7ff2a3e1-747d-4b08-9635-30ae3d2f1144 (<unnamed>)
+2019-08-07 22:25:18 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2019-08-07 22:25:18 DEBUG StatisticsInitiator:82 - Statistics initialized [enabled=false]
+2019-08-07 22:25:47 DEBUG DriverManagerConnectionProviderImpl:51 - Connection pool now considered primed; min-size will be maintained
