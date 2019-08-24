@@ -27,37 +27,46 @@ import lombok.Setter;
  *
  */
 
-@NamedQueries({ @NamedQuery(name = "Agenda.findAll", query = "SELECT a FROM Agenda a")})
+@NamedQueries({ @NamedQuery(name = "Agenda.findAll", query = "SELECT a FROM Agenda a") })
 @Entity
 @Table(name = "TB_AGENDA")
-public class Agenda implements Serializable{
-	
+public class Agenda implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	@Getter
 	@Setter
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long Id;
-	
+
 	@Getter
 	@Setter
 	@ManyToOne
-	@JoinColumn(name="id_medico")
+	@JoinColumn(name = "id_medico")
 	private Medico medico;
-	
+
 	@Getter
 	@Setter
 	@ManyToOne
 	@Inject
-	@JoinColumn(name="id_paciente")
-	private Paciente paciente; 
-	
+	@JoinColumn(name = "id_paciente")
+	private Paciente paciente;
+
+	@Getter
+	@Setter
+	@Column(name = "Data")
+	private String data;
+
 	@Getter
 	@Setter
 	@Column(name = "Hora")
 	private String hora;
 	
+	@Getter
+	@Setter
+	@Column(name = "Ativa")
+	private boolean ativa;
 
 	@Override
 	public int hashCode() {
@@ -84,5 +93,5 @@ public class Agenda implements Serializable{
 		return true;
 	}
 
-	
+
 }

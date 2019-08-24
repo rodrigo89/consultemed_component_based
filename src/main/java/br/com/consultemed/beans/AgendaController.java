@@ -15,8 +15,10 @@ import javax.inject.Named;
 import org.apache.log4j.Logger;
 
 import br.com.consultemed.models.Agenda;
+import br.com.consultemed.models.Medico;
 import br.com.consultemed.models.Paciente;
 import br.com.consultemed.services.AgendaService;
+import br.com.consultemed.services.MedicoService;
 import br.com.consultemed.services.PacienteService;
 import lombok.Getter;
 import lombok.Setter;
@@ -46,14 +48,25 @@ public class AgendaController implements Serializable{
 	
 	@Inject
 	private AgendaService service;
-	
+
 	@Inject
 	private PacienteService servicePaciente;
+	@Inject
+	private MedicoService serviceMedico;
 
 	
 	public String editar() {
 		this.agenda = this.agendaEditar;
 		return "/pages/agendas/addAgendas.xhtml";
+	}
+	
+	public String cancelar() {
+		System.out.println(this.agenda.isAtiva());
+		this.agenda = this.agendaEditar;
+		this.service.cancelarAgenda(this.agenda);
+
+		System.out.println(this.agenda.isAtiva());
+		return "/pages/agendas/agendas.xhtml";
 	}
 	
 	public String excluir() throws Exception {
@@ -84,6 +97,11 @@ public class AgendaController implements Serializable{
 	public List<Paciente> listaPacientes() throws Exception{
 		List<Paciente> pacientes = this.servicePaciente.listaPaciente();
 		return pacientes;
+	}
+	
+	public List<Medico> listaMedicos() throws Exception{
+		List<Medico> medicos = this.serviceMedico.listaMedico();
+		return medicos;
 	}
 	
 	

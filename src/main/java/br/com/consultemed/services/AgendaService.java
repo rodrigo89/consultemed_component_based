@@ -30,4 +30,12 @@ public class AgendaService {
 	public void deletarAgenda(Long id) throws Exception {
 		this.dao.deleteById(id);
 	}
+
+	public void cancelarAgenda(Agenda agenda) {
+		// TODO Auto-generated method stub
+		this.dao.cancelarAgenda(agenda);
+	}
+
+	
+	
 }

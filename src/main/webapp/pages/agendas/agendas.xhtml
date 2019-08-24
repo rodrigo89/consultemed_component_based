@@ -15,10 +15,10 @@
 				<p:menuitem value="Agendas" url="#" />
 			</p:breadCrumb>
 		</h:form>
-	
+
 		<p:spacer height="10" />
-		
-			
+
+
 		<h:form id="frm">
 
 			<p:messages showDetail="false" showSummary="true" globalOnly="true" />
@@ -35,17 +35,27 @@
 				<p:column headerText="Hora">
 					<h:outputText value="#{agenda.hora}" />
 				</p:column>
-
+				<p:column headerText="Ativa">
+					<h:outputText value="#{agenda.ativa}" />
+				</p:column>
 				<p:column>
+					<p:commandLink action="#{agendaController.cancelar()}" value="Cancelar" update="@form" process="@this">
+						<f:setPropertyActionListener
+							target="#{agendaController.agendaEditar}" value="#{agenda}" />
+					</p:commandLink>
+
+					<p:spacer width="10" />
 					<p:commandLink action="#{agendaController.editar()}" value="Editar">
-						<f:setPropertyActionListener target="#{agendaController.agendaEditar}" value="#{agenda}" />
+						<f:setPropertyActionListener
+							target="#{agendaController.agendaEditar}" value="#{agenda}" />
 					</p:commandLink>
 
 					<p:spacer width="10" />
 
 					<p:commandLink action="#{agendaController.excluir()}"
 						value="Excluir" update="@form" process="@this">
-						<f:setPropertyActionListener target="#{agendaController.agendaEditar}" value="#{agenda}" />
+						<f:setPropertyActionListener
+							target="#{agendaController.agendaEditar}" value="#{agenda}" />
 					</p:commandLink>
 
 				</p:column>

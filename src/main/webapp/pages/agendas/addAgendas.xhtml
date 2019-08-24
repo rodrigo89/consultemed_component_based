@@ -7,8 +7,10 @@
 
 	<ui:define name="content">
 
-		<f:event listener="#{medicoController.listaMedicos()}"			type="preRenderView" />
-		<f:event listener="#{pacienteController.listaPacientes()}"			type="preRenderView" />
+		<f:event listener="#{medicoController.listaMedicos()}"
+			type="preRenderView" />
+		<f:event listener="#{pacienteController.listaPacientes()}"
+			type="preRenderView" />
 		<p:spacer height="10" />
 
 		<h:form>
@@ -35,18 +37,28 @@
 							value="#{agendaController.agenda.id}" />
 					</span>
 
-					
+
 
 					<h3>Nome do Paciente</h3>
-					<span class="ui-float-label"> 
-							<p:selectOneMenu id="paciente"
-								value="#{agendaController.agenda.paciente}" converter="pacienteConverter" style="width:150px">
-								<f:selectItem itemLabel="Selecione" />
-								<f:selectItems value="#{agendaController.listaPacientes()}" var="paciente"
-									itemLabel="#{paciente.nome}" itemValue="#{paciente}"/>
-							</p:selectOneMenu>
+					<span class="ui-float-label"> <p:selectOneMenu id="paciente"
+							value="#{agendaController.agenda.paciente}"
+							converter="pacienteConverter" style="width:150px">
+							<f:selectItem itemLabel="Selecione" />
+							<f:selectItems value="#{agendaController.listaPacientes()}"
+								var="paciente" itemLabel="#{paciente.nome}"
+								itemValue="#{paciente}" />
+						</p:selectOneMenu>
 					</span>
-
+					<h3>Nome do Médico</h3>
+					<span class="ui-float-label"> <p:selectOneMenu id="medico"
+							value="#{agendaController.agenda.medico}"
+							converter="medicoConverter" style="width:150px">
+							<f:selectItem itemLabel="Selecione" />
+							<f:selectItems value="#{agendaController.listaMedicos()}"
+								var="medico" itemLabel="#{medico.nome}"
+								itemValue="#{medico}" />
+						</p:selectOneMenu>
+					</span>
 
 					<h3>Hora da Agenda</h3>
 					<span class="ui-float-label"> <h:inputText id="hora"

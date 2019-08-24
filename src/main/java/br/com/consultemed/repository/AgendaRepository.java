@@ -49,8 +49,10 @@ public class AgendaRepository {
 		try {
 			factory.getTransaction().begin();
 			if (agenda.getId() == null) {
+				agenda.setAtiva(true);
 				factory.persist(agenda);
 			} else {
+				agenda.setAtiva(true);
 				factory.merge(agenda);
 			}
 			factory.getTransaction().commit();
@@ -87,6 +89,27 @@ public class AgendaRepository {
 		this.factory.getTransaction().begin();
 		Agenda a = this.factory.find(Agenda.class, idAgenda);
 		return a;
+	}
+	
+	public void cancelarAgenda(Agenda agenda) {
+		this.factory = emf.createEntityManager();
+		try {
+			factory.getTransaction().begin();
+			
+				if(agenda.isAtiva())
+					agenda.setAtiva(false);
+				else
+					agenda.setAtiva(true);
+				factory.merge(agenda);
+			
+			factory.getTransaction().commit();
+		} catch (Exception e) {
+			e.getMessage();
+			this.factory.getTransaction().rollback();
+
+		} finally {
+			factory.close();
+		}
 	}
 
 }
