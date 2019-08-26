@@ -55,14 +55,15 @@
 							converter="medicoConverter" style="width:150px">
 							<f:selectItem itemLabel="Selecione" />
 							<f:selectItems value="#{agendaController.listaMedicos()}"
-								var="medico" itemLabel="#{medico.nome}"
-								itemValue="#{medico}" />
+								var="medico" itemLabel="#{medico.nome}" itemValue="#{medico}" />
 						</p:selectOneMenu>
 					</span>
 
-					<h3>Hora da Agenda</h3>
-					<span class="ui-float-label"> <h:inputText id="hora"
-							value="#{agendaController.agenda.hora}" required="true" />
+					<h3>Data da Agenda</h3>
+					<span class="ui-float-label"> 
+							<p:datePicker
+							id="buttonbar" value="#{agendaController.agenda.data}"
+							showButtonBar="true" />
 					</span>
 
 				</h:panelGrid>

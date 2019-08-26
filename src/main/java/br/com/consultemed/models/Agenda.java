@@ -4,6 +4,7 @@
 package br.com.consultemed.models;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.inject.Inject;
 import javax.persistence.Column;
@@ -56,7 +57,7 @@ public class Agenda implements Serializable {
 	@Getter
 	@Setter
 	@Column(name = "Data")
-	private String data;
+	private Date data;
 
 	@Getter
 	@Setter

@@ -24,22 +24,23 @@
 			<p:messages showDetail="false" showSummary="true" globalOnly="true" />
 			<p:dataTable id="table-agendas" var="agenda"
 				value="#{agendaController.listaAgendas()}">
-				<p:column headerText="Nome do Médico">
+				<p:column filterBy="#{agenda.medico.nome}" headerText="Nome do Médico" filterMatchMode="contains">
 					<h:outputText value="#{agenda.medico.nome}" />
 				</p:column>
 
-				<p:column headerText="Nome do Paciente">
+				<p:column filterBy="#{agenda.paciente.nome}" headerText="Nome do Paciente" filterMatchMode="contains">
 					<h:outputText value="#{agenda.paciente.nome}" />
 				</p:column>
-
-				<p:column headerText="Hora">
-					<h:outputText value="#{agenda.hora}" />
+				<p:column filterBy="#{agenda.data}" headerText="Data"
+					filterMatchMode="contains">
+					<h:outputText value="#{agenda.data}" />
 				</p:column>
-				<p:column headerText="Ativa">
+				<p:column filterBy="#{agenda.ativa}" headerText="Ativa" filterMatchMode="contains">
 					<h:outputText value="#{agenda.ativa}" />
 				</p:column>
-				<p:column>
-					<p:commandLink action="#{agendaController.cancelar()}" value="Cancelar" update="@form" process="@this">
+				<p:column headerText="Opções">
+					<p:commandLink action="#{agendaController.cancelar()}"
+						value="Cancelar" update="@form" process="@this">
 						<f:setPropertyActionListener
 							target="#{agendaController.agendaEditar}" value="#{agenda}" />
 					</p:commandLink>
@@ -69,6 +70,12 @@
 				action="#{agendaController.novoAgenda()}" style="margin-right:20px;">
 				<h:outputText value="Novo Agenda" />
 			</p:commandLink>
+			<p:lightBox iframe="true" id="lighbox3">
+				<h:outputLink value="./agendasData.xhtml"
+					title="Agendas por Periodo">
+					<h:outputText value="Agendas por Periodo" />
+				</h:outputLink>
+			</p:lightBox>
 		</h:form>
 
 	</ui:define>

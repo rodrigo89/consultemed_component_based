@@ -98,8 +98,8 @@ public class AgendaRepository {
 			
 				if(agenda.isAtiva())
 					agenda.setAtiva(false);
-				else
-					agenda.setAtiva(true);
+				//else
+					//agenda.setAtiva(true);
 				factory.merge(agenda);
 			
 			factory.getTransaction().commit();
